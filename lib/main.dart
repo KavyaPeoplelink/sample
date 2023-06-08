@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 130,
                   child: AppBar(
+                    //this is change
                     title: Text('Dukaan Premium'),
                     backgroundColor: Colors.blue[900],
                     centerTitle: true,
@@ -204,7 +205,7 @@ class MyApp extends StatelessWidget {
                           child: Column(
                             children: [
                               Icon(Icons.call,size: 30,),
-                              Text('Phone Call'),
+                              Text('Phone '),
                             ],
                           ),
                         )
